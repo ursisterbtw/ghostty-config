@@ -1,2 +1,3 @@
 # ghostty-config
-not fully functioning yet as I'm configuring this in windows
+
+not fully synced up yet as I spent most of my sanity building ghostty to source on Windows
