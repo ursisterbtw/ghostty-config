@@ -1,0 +1,95 @@
+# -------------------------------
+# Theme & Color Scheme
+# -------------------------------
+theme = "AlienBlood" 
+
+# -------------------------------
+# Font Configuration
+# -------------------------------
+font-family = "Jetbrains Mono"
+font-size = "10"
+
+# If bold and italic variants are available, specify them
+font-family-bold = "Jetbrains Mono Bold"
+font-family-italic = "Jetbrains Mono Italic"
+font-family-bold-italic = "Jetbrains Mono Bold Italic"
+
+# -------------------------------
+# Appearance Settings
+# -------------------------------
+# background = "#282a36"
+# foreground = "#f8f8f2"
+# selection-background = "#44475a"
+# selection-foreground = "#f8f8f2"
+
+# -------------------------------
+# Cursor Settings
+# -------------------------------
+cursor-color = "#50fa7b"
+cursor-opacity = "0.9"
+cursor-style = "block"
+cursor-text = "#000000"
+
+# -------------------------------
+# Window Configuration
+# -------------------------------
+window-width = "1920"
+window-height = "1080"
+window-padding-x = "12"
+window-padding-y = "12"
+window-padding-balance = "true"
+window-decoration = "true"
+background-opacity = "0.90"
+
+# -------------------------------
+# Shell Integration
+# -------------------------------
+shell-integration = "detect"
+
+# -------------------------------
+# Mouse Configuration
+# -------------------------------
+mouse-hide-while-typing = "true"
+mouse-scroll-multiplier = "1.5"
+cursor-click-to-move = "true"
+
+# -------------------------------
+# Scrollback Configuration
+# -------------------------------
+scrollback-limit = "69420"
+
+# -------------------------------
+# Performance and Resource Management (Linux)
+# -------------------------------
+linux-cgroup = "single-instance"
+linux-cgroup-memory-limit = "25000"
+linux-cgroup-processes-limit = "100"
+linux-cgroup-hard-fail = "true"
+
+# -------------------------------
+# macOS Specific Settings
+# -------------------------------
+macos-titlebar-style = "transparent"
+macos-non-native-fullscreen = "visible-menu"
+macos-titlebar-proxy-icon = "hidden"
+macos-option-as-alt = "true"
+macos-window-shadow = "true"
+
+# -------------------------------
+# GTK Specific Settings (Linux)
+# -------------------------------
+gtk-adwaita = "true"
+gtk-tabs-location = "top"
+adw-toolbar-style = "flat"
+gtk-wide-tabs = "true"
+
+# -------------------------------
+# Additional Features
+# -------------------------------
+desktop-notifications = "true"
+bold-is-bright = "true"
+term = "xterm-256color"
+image-storage-limit = "69420"
+clipboard-paste-bracketed-safe = "true"
+title-report = "true"
+window-save-state = "always"
