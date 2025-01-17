@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """
-configuratoor: A CLI tool to prettify and organize configuration files with visual separators and comments.
+configuratoor: a CLI tool to prettify and organize configuration files with visual separators and comments.
 
-Supported Formats: TOML, YAML, INI
+supported Formats: TOML, YAML, INI
 
-Usage:
+usage:
     configuratoor_cli.py <command> [options]
 
-Commands:
-    prettify-toml    Prettify a TOML configuration file
-    prettify-yaml    Prettify a YAML configuration file
-    prettify-ini     Prettify an INI configuration file
+commands:
+    prettify-toml    prettify a TOML configuration file
+    prettify-yaml    prettify a YAML configuration file
+    prettify-ini     prettify an INI configuration file
 """
 
 import argparse
@@ -147,7 +147,7 @@ def prettify_yaml(config, style, use_emoji):
                     lines.append(f"  {key}: {value}")
                 else:
                     lines.append(f"  {key}: {value}")
-        lines.append("")  # Add empty line for spacing
+        lines.append("")  # add empty line for spacing
     return "\n".join(lines)
 
 def prettify_ini(config, style, use_emoji):
@@ -156,7 +156,7 @@ def prettify_ini(config, style, use_emoji):
         lines.append(generate_separator(style, section.capitalize(), use_emoji))
         lines.append(f"[{section}]")
         lines.extend(f"{key} = {value}" for key, value in config.items(section))
-        lines.append("")  # Add empty line for spacing
+        lines.append("")  # add empty line for spacing
     return "\n".join(lines)
 
 def prettify_config(data, fmt, style, use_emoji):
