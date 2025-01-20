@@ -1,1 +1,11 @@
-🦀 --placeholder-- 🐍
+*.env
+target
+__pycache__
+.venv
+venv
+secrets
+storage
+*transportable*
+Cargo.lock
+.cache
+!.env.example
