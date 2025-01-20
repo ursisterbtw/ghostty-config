@@ -1,95 +1,76 @@
-# -------------------------------
-# Theme & Color Scheme
-# -------------------------------
-theme = "Brogrammer" 
+# Font configuration
+font-family = JetBrains Mono
+font-style = regular
+font-style-bold = bold
+font-style-italic = italic
+font-style-bold-italic = bold-italic
+font-size = 10
+font-feature = 
+font-synthetic-style = bold,italic,bold-italic
 
-# -------------------------------
-# Font Configuration
-# -------------------------------
-font-family = "Jetbrains Mono"
-font-size = "10"
+# Theme
+theme = Brogrammer
 
-# If bold and italic variants are available, specify them
-font-family-bold = "Jetbrains Mono Bold"
-font-family-italic = "Jetbrains Mono Italic"
-font-family-bold-italic = "Jetbrains Mono Bold Italic"
+# Text rendering
+text-blending = native
+grapheme-width-method = unicode
 
-# -------------------------------
-# Appearance Settings
-# -------------------------------
-# background = "#282a36"
-# foreground = "#f8f8f2"
-# selection-background = "#44475a"
-# selection-foreground = "#f8f8f2"
+# Window appearance
+window-width = 0
+window-height = 0
+window-padding-x = 12
+window-padding-y = 12
+window-decoration = true
+background-opacity = 0.90
 
-# -------------------------------
-# Cursor Settings
-# -------------------------------
-cursor-color = "#50fa7b"
-cursor-opacity = "0.9"
-cursor-style = "block"
-cursor-text = "#000000"
+# Mouse behavior
+mouse-hide-while-typing = true
+mouse-scroll-multiplier = 1.5
 
-# -------------------------------
-# Window Configuration
-# -------------------------------
-window-width = "1920"
-window-height = "1080"
-window-padding-x = "12"
-window-padding-y = "12"
-window-padding-balance = "true"
-window-decoration = "true"
-background-opacity = "0.90"
+# Terminal features
+shell-integration-features = no-cursor,sudo
+clipboard-paste-protection = true
+desktop-notifications = true
+bold-is-bright = true
+term = xterm-256color
 
-# -------------------------------
-# Shell Integration
-# -------------------------------
-shell-integration = "detect"
+# Cursor
+cursor-style = bar
+cursor-text = 000000
+cursor-color = 50fa7b
 
-# -------------------------------
-# Mouse Configuration
-# -------------------------------
-mouse-hide-while-typing = "true"
-mouse-scroll-multiplier = "1.5"
-cursor-click-to-move = "true"
+# Shader configuration
+# Uncomment only ONE shader at a time!
 
-# -------------------------------
-# Scrollback Configuration
-# -------------------------------
-scrollback-limit = "69420"
+# Original Trippy
+#custom-shader = ~/.config/ghostty/shaders/trippy.glsl
 
-# -------------------------------
-# Performance and Resource Management (Linux)
-# -------------------------------
-linux-cgroup = "single-instance"
-linux-cgroup-memory-limit = "25000"
-linux-cgroup-processes-limit = "100"
-linux-cgroup-hard-fail = "true"
+# Matrix Digital Rain
+#custom-shader = ~/.config/ghostty/shaders/matrix_rain.glsl
 
-# -------------------------------
-# macOS Specific Settings
-# -------------------------------
-macos-titlebar-style = "transparent"
-macos-non-native-fullscreen = "visible-menu"
-macos-titlebar-proxy-icon = "hidden"
-macos-option-as-alt = "true"
-macos-window-shadow = "true"
+# Glitch CRT
+#custom-shader = ~/.config/ghostty/shaders/glitch_crt.glsl
 
-# -------------------------------
-# GTK Specific Settings (Linux)
-# -------------------------------
-gtk-adwaita = "true"
-gtk-tabs-location = "top"
-adw-toolbar-style = "flat"
-gtk-wide-tabs = "true"
+# Liquid Neon
+#custom-shader = ~/.config/ghostty/shaders/liquid_neon.glsl
 
-# -------------------------------
-# Additional Features
-# -------------------------------
-desktop-notifications = "true"
-bold-is-bright = "true"
-term = "xterm-256color"
-image-storage-limit = "69420"
-clipboard-paste-bracketed-safe = "true"
-title-report = "true"
-window-save-state = "always"
+# Kaleidoscope
+#custom-shader = ~/.config/ghostty/shaders/kaleidoscope.glsl
+
+# Vaporwave
+#custom-shader = ~/.config/ghostty/shaders/vaporwave.glsl
+
+# Plasma Wave
+#custom-shader = ~/.config/ghostty/shaders/plasma_wave.glsl
+
+# Quantum Field
+#custom-shader = ~/.config/ghostty/shaders/quantum_field.glsl
+
+# Cyberpunk City
+#custom-shader = ~/.config/ghostty/shaders/cyberpunk_city.glsl
+
+# Fractal Tunnel
+#custom-shader = ~/.config/ghostty/shaders/fractal_tunnel.glsl
+
+# Keep animation enabled for all shaders
+#custom-shader-animation = true
