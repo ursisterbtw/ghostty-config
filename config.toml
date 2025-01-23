@@ -5,11 +5,24 @@ font-style-bold = bold
 font-style-italic = italic
 font-style-bold-italic = bold-italic
 font-size = 10
-font-feature = 
+font-feature =
 font-synthetic-style = bold,italic,bold-italic
 
 # Theme
-theme = Brogrammer
+theme = AlienBlood
+#theme = Brogrammer
+#theme = Laser
+
+# Build
+gtk-adwaita = true
+gtk-custom-css = true
+gtk-wide-tabs = true
+
+# Clipboard
+clipboard-read = allow
+clipboard-write = allow
+clipboard-trim-trailing-spaces = true
+clipboard-paste-protection = true
 
 # Text rendering
 text-blending = native
@@ -29,7 +42,6 @@ mouse-scroll-multiplier = 1.5
 
 # Terminal features
 shell-integration-features = no-cursor,sudo
-clipboard-paste-protection = true
 desktop-notifications = true
 bold-is-bright = true
 term = xterm-256color
@@ -39,8 +51,22 @@ cursor-style = bar
 cursor-text = 000000
 cursor-color = 50fa7b
 
+# Etc
+abnormal-command-exit-runtime = 250
+scrollback-limit = 10000000
+link-url = true
+maximize = false
+fullscreen = false
+title =
+class =
+x11-instance-name =
+working-directory =
+
 # Shader configuration
 # Uncomment only ONE shader at a time!
+
+# Galaxy (not my work)
+custom-shader = ~/.config/ghostty/shaders/solar.glsl
 
 # Original Trippy
 #custom-shader = ~/.config/ghostty/shaders/trippy.glsl
