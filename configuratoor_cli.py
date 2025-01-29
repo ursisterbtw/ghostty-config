@@ -92,7 +92,9 @@ def save_config(data, file_path, fmt):
                 data.write(f)
             else:
                 print("Invalid INI data.")
+                return False
     print(f"Prettified config saved to {file_path}")
+    return True
 
 def generate_separator(style, title=None, emoji=False):
     sep = SEPARATOR_STYLES.get(style, SEPARATOR_STYLES['equals'])
@@ -197,7 +199,8 @@ def main():
         sys.exit(1)
 
     try:
-        save_config(prettified, output, args.command.split('-')[1])
+        if not save_config(prettified, output, args.command.split('-')[1]):
+            sys.exit(1)
     except Exception as e:
         print(f"Error saving prettified config: {e}")
         sys.exit(1)
